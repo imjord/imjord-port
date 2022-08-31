@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/imjord-port/static/css/main.50b8c824.css",
+    "main.js": "/imjord-port/static/js/main.4529e53c.js",
+    "static/media/gameLibrary.png": "/imjord-port/static/media/gameLibrary.920db8485f5d8442d2bc.png",
+    "static/media/logo1.JPG": "/imjord-port/static/media/logo1.63715213b20b4927d6c4.JPG",
+    "static/media/badgeMaker.PNG": "/imjord-port/static/media/badgeMaker.94fe237f140497db7b05.PNG",
+    "static/media/ourFriends.PNG": "/imjord-port/static/media/ourFriends.7b1edd6a229d54d02999.PNG",
+    "static/media/projects.JPG": "/imjord-port/static/media/projects.b02c37bd3613fa0a5b83.JPG",
+    "static/media/logo3.JPG": "/imjord-port/static/media/logo3.2d7be3f7b5fe60f00ff8.JPG",
+    "static/media/contact.JPG": "/imjord-port/static/media/contact.889510c76995f4c9a02d.JPG",
+    "index.html": "/imjord-port/index.html",
+    "main.50b8c824.css.map": "/imjord-port/static/css/main.50b8c824.css.map",
+    "main.4529e53c.js.map": "/imjord-port/static/js/main.4529e53c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b8c824.css",
+    "static/js/main.4529e53c.js"
+  ]
+}
