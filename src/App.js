@@ -17,6 +17,7 @@ import BadgeMakerImage from './badgeMaker.PNG';
 
 
 function App() {
+  const [messageSent, setMessageSent] = useState(false);
   const [pages] = useState([
     {
       title: "Portfolio",
@@ -69,7 +70,7 @@ function App() {
     />
    <Intro pages={pages} projects={projects} currentProject={currentProject} setCurrentProject={setCurrentProject}
     currentPage={currentPage} setCurrentPage={setCurrentPage} contactSelected={contactSelected} setContactSelected={setContactSelected}
-     />
+    messageSent={messageSent} setMessageSent={setMessageSent} />
    </div>
   );
 }

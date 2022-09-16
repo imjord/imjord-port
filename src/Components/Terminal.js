@@ -5,7 +5,7 @@ import { init as iTyped } from 'ityped'
 const Terminal = (props) => {
    
     const TextRef = useRef();
-    console.log(props.currentPage.title)
+    
 
     useEffect(() => {
         iTyped(TextRef.current,{

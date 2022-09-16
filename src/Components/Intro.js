@@ -11,14 +11,13 @@ const Intro = (props) => {
  
   const { projects, currentProject, setCurrentProject, pages, currentPage, setCurrentPage, contactSelected, setContactSelected} = props;
 
-  console.log(projects);
   useEffect(() => {
     document.title = currentPage.title;
   }, [currentPage, currentProject]);
   return (
     <div className='main'>
 <div className='intro'>
-      <Terminal currentPage={currentPage} />
+      <Terminal  currentPage={currentPage} />
 
         <div className='intro-inner'>
           <div className='intro-left'>
@@ -28,7 +27,7 @@ const Intro = (props) => {
 
            
             {currentPage.title == 'Projects' ? <Carousel currentProject={currentProject} projects={projects} setCurrentProject={setCurrentProject} />:  <p className='paragraph-content'>{currentPage.content}</p>}
-             {currentPage.title == 'Contact' ? <div> <Form ></Form></div> : null}
+             {currentPage.title == 'Contact' ? <Form ></Form> : null}
           </div>
         </div>
     </div>
