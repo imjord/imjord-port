@@ -28,7 +28,7 @@ const Form = () => {
       <p className='form-title'>Your Message. </p>
       <textarea id="textarea" name='message' placeholder='Write Me.' onChange={((e) => setMessage(e.target.value))}></textarea>
       <button type="submit" value="Submit" onSubmit={handleSubmit} >Submit .</button>
-      <input type="hidden" name="_next" value="http://localhost:3000/" />
+      <input type="hidden" name="_next" value="https://imjord.github.io/imjord-port/" />
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_autoresponse" value="Thank you for messaging me! I will get back to you shortly!"></input>
     </label>
