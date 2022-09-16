@@ -15,6 +15,7 @@ const Form = () => {
   return (
     <div className='form-container'>
      <form action="https://formsubmit.co/aff5927f7608eeb2eae8e14b2a3322ae" method="POST">
+      {/* formsubmit */}
     <label>
       <p className='form-title'> Your Name. </p>
       <input id="input" type="text" name="name" placeholder='Name.' onChange={((e) => setName(e.target.value))} />
