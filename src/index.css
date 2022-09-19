@@ -282,7 +282,9 @@ textarea:focus, input:focus{
 
 
 @media only screen and (max-width: 930px) {
-
+  .intro-right {
+    width: 100%;
+  }
   .mobile-links {
     position: absolute;
     top: 60px;
@@ -359,7 +361,8 @@ textarea:focus, input:focus{
   }
 
   .intro-left {
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
     height: 50%;
   }
 
@@ -399,7 +402,9 @@ textarea:focus, input:focus{
 }
 
 @media only screen and (max-width: 800px) {
-
+  .intro-right {
+    width: 100%;
+  }
   .mobile-links {
     position: absolute;
     top: 60px;
@@ -476,7 +481,8 @@ textarea:focus, input:focus{
   }
 
   .intro-left {
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
     height: 50%;
   }
 
@@ -514,7 +520,9 @@ textarea:focus, input:focus{
 
 }
 @media only screen and (max-width: 600px) {
-
+  .intro-right {
+    width: 100%;
+  }
   .mobile-links {
     position: absolute;
     top: 60px;
@@ -522,6 +530,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     background-color: white;
+   
     
   }
 
@@ -722,7 +731,11 @@ textarea:focus, input:focus{
     border: 2px solid rgb(48, 255, 2);
   }
 
- 
+  .intro-right {
+    width: 100%;
+  }
+
+
   #carousel {
     padding: 0;
     margin-top: 15px;
