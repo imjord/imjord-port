@@ -38,13 +38,13 @@ function App() {
 
   const [projects] = useState([
     {
-      liveSite: "https://imjord-games-library.herokuapp.com/",
+      liveSite: "https://imjordgamesdb.herokuapp.com/",
       skills: "Javascript, React.js, Node.js",
       title: "Imjord Game Library",
       image: GameLibraryImage
     },
     {
-      liveSite: "https://our-friends-social.herokuapp.com/",
+      liveSite: "https://our-friends.herokuapp.com/",
       skills: "Javascript, node.js, EJS",
       title: "OurFriends Social Media Site",
       image: SocialMediaSiteImage
