@@ -13,6 +13,8 @@ import contactImg from './contact.JPG';
 import GameLibraryImage from './gameLibrary.png'
 import SocialMediaSiteImage from './ourFriends.PNG';
 import BadgeMakerImage from './badgeMaker.PNG';
+import SudaImage from './suda.png';
+import Imjordredditclone from './imjordredditclone.png';
 
 
 
@@ -55,8 +57,19 @@ function App() {
       title: "Console App Badge Maker",
       image: BadgeMakerImage
     },
-    
-  ])
+    {
+      liveSite: "https://imjord-reddit-clone.herokuapp.com/",
+      skills: "Javascript, React.js, Node.js, Passport.js, MongoDB",
+      title: "Imjord Reddit Clone",
+      image: Imjordredditclone
+    },
+    {
+      liveSite: "https://suda.herokuapp.com/",
+      skills: "EJS, Javascript, Node.js, C#, Windows Forms",
+      title: "Suda Windows App",
+      image: SudaImage
+    }
+    ])
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
   const [currentProject, setCurrentProject] = useState(projects[0]);
