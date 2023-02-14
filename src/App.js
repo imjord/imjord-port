@@ -15,6 +15,8 @@ import SocialMediaSiteImage from './ourFriends.PNG';
 import BadgeMakerImage from './badgeMaker.PNG';
 import SudaImage from './suda.png';
 import Imjordredditclone from './imjordredditclone.png';
+import sneaker from './vade.png';
+import readme from './readme.png';
 
 
 
@@ -56,6 +58,18 @@ function App() {
       skills: "C#",
       title: "Console App Badge Maker",
       image: BadgeMakerImage
+    },
+    {
+      liveSite: "https://vade-sneakers.herokuapp.com/",
+      skills: "React, Javascript, Node.js, Context API, MongoDB, Express, CSS",
+      title: "Vade Ecommerce Site",
+      image: sneaker
+    },
+    {
+      liveSite: "https://github.com/imjord/imjord-Github-Readme-Generator",
+      skills: "Javascript, Node.js, inquirer",
+      title: "imjord Readme Generator",
+      image: readme
     },
     {
       liveSite: "https://imjord-reddit-clone.herokuapp.com/",

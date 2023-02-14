@@ -1,4 +1,4 @@
 # Welcome!
 Hello Im Imjord. 
 
-Welcome to my Portfolio!
+Welcome to my Portfolio.

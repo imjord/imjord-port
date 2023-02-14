@@ -65,7 +65,33 @@ function CarouselFadeExample(props) {
         <Carousel.Caption className='caro-p'>
           <h3>{props.projects[4].title}</h3>
           <h4>Skills: {props.projects[4].skills}</h4>
-          <a href={props.projects[4].liveSite} target="_blank"><h4>Live Site</h4> </a>
+          <a href={props.projects[4].liveSite} target="_blank"><h4>Github Repo</h4> </a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item id="caro-div">
+        <img
+          className="d-block w-100"
+          src={props.projects[5].image}
+          alt="Fifth slide"
+        />
+
+        <Carousel.Caption className='caro-p'>
+          <h3>{props.projects[5].title}</h3>
+          <h4>Skills: {props.projects[5].skills}</h4>
+          <a href={props.projects[5].liveSite} target="_blank"><h4>Live Site</h4> </a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item id="caro-div">
+        <img
+          className="d-block w-100"
+          src={props.projects[6].image}
+          alt="Fifth slide"
+        />
+
+        <Carousel.Caption className='caro-p'>
+          <h3>{props.projects[6].title}</h3>
+          <h4>Skills: {props.projects[6].skills}</h4>
+          <a href={props.projects[6].liveSite} target="_blank"><h4>Live Site</h4> </a>
         </Carousel.Caption>
       </Carousel.Item>
       
