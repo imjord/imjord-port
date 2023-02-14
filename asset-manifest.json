@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/imjord-port/static/css/main.6b1de101.css",
-    "main.js": "/imjord-port/static/js/main.27f0f2b9.js",
+    "main.js": "/imjord-port/static/js/main.2c6a0b4d.js",
     "static/media/gameLibrary.png": "/imjord-port/static/media/gameLibrary.920db8485f5d8442d2bc.png",
     "static/media/logo1.JPG": "/imjord-port/static/media/logo1.63715213b20b4927d6c4.JPG",
+    "static/media/vade.png": "/imjord-port/static/media/vade.121c664558d5b6fe4742.png",
     "static/media/badgeMaker.PNG": "/imjord-port/static/media/badgeMaker.94fe237f140497db7b05.PNG",
     "static/media/ourFriends.PNG": "/imjord-port/static/media/ourFriends.7b1edd6a229d54d02999.PNG",
     "static/media/projects.JPG": "/imjord-port/static/media/projects.b02c37bd3613fa0a5b83.JPG",
@@ -11,12 +12,13 @@
     "static/media/suda.png": "/imjord-port/static/media/suda.00a731042b9edf00e155.png",
     "static/media/contact.JPG": "/imjord-port/static/media/contact.889510c76995f4c9a02d.JPG",
     "static/media/imjordredditclone.png": "/imjord-port/static/media/imjordredditclone.6d6bb5d75d5b49c318a6.png",
+    "static/media/readme.png": "/imjord-port/static/media/readme.8f2b87978bba4fa22d35.png",
     "index.html": "/imjord-port/index.html",
     "main.6b1de101.css.map": "/imjord-port/static/css/main.6b1de101.css.map",
-    "main.27f0f2b9.js.map": "/imjord-port/static/js/main.27f0f2b9.js.map"
+    "main.2c6a0b4d.js.map": "/imjord-port/static/js/main.2c6a0b4d.js.map"
   },
   "entrypoints": [
     "static/css/main.6b1de101.css",
-    "static/js/main.27f0f2b9.js"
+    "static/js/main.2c6a0b4d.js"
   ]
 }
