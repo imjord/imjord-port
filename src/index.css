@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -12,7 +11,6 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='868' height='868' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%233BFF01' stroke-width='2'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
 }
 /* scroll bar */
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -36,20 +34,15 @@ body {
 
 /* end scroll */
 
-
-
-
 /* navbar */
 
 nav {
-
   background-color: white;
   /* background-color: rgb(48, 255, 2); */
-
 }
 
 nav h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .nav-wrapper {
@@ -67,30 +60,32 @@ nav h1 {
 
 nav ul {
   display: flex;
-  
+
   list-style: none;
 }
 
 nav ul li {
   padding: 20px;
   margin: 20px;
-   justify-content: center;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   color: black;
   font-size: 30px;
-
 }
 
+nav ul li:hover {
+  cursor: pointer;
+  background-color: rgb(48, 255, 2);
+  border-radius: 10px;
+}
 
 /*  end of navbar */
-
-
 
 /* intro comps */
 
 .intro {
- margin: 10px 30px 10px 30px;
+  margin: 10px 30px 10px 30px;
   padding: 30px;
   border-radius: 10px;
   background-color: black;
@@ -102,22 +97,18 @@ nav ul li {
   justify-content: space-around;
 }
 
-
-.intro-left{
-display: flex;
-
-  
+.intro-left {
+  display: flex;
 }
 .intro-left img {
   height: 600px;
   width: 600px;
   border-radius: 50%;
- 
 }
 
 .intro-right {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   justify-content: center;
   align-items: center;
@@ -126,7 +117,6 @@ display: flex;
   padding: 20px;
   border-radius: 10px;
 }
-
 
 .paragraph-content {
   display: flex;
@@ -149,11 +139,10 @@ display: flex;
 #terminal-content {
   color: rgb(48, 255, 2);
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* end of term */
-
 
 /*  PROJECTS DIV */
 
@@ -173,18 +162,14 @@ display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-   
-
-
 }
 #carousel img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height : 500px;
-  max-height : 500px;
+  min-height: 500px;
+  max-height: 500px;
   border-radius: 20px;
-  
 }
 
 .caro-p {
@@ -193,7 +178,8 @@ display: flex;
   opacity: 0.85;
 }
 
-.caro-p h3, h4{
+.caro-p h3,
+h4 {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(48, 255, 2);
@@ -203,9 +189,14 @@ display: flex;
   text-decoration: none;
 }
 
+#link {
+  margin: 0 auto;
+  background-color: rgb(68, 70, 70);
+  width: 50%;
+}
+
 .caro-p a:hover {
   cursor: pointer;
-  
 }
 
 .mobile-hamburger {
@@ -214,8 +205,6 @@ display: flex;
 
 /* form */
 
-
-
 form {
   display: flex;
   justify-content: center;
@@ -223,7 +212,6 @@ form {
   flex-direction: column;
   height: 100%;
   width: 100%;
-
 }
 
 form label {
@@ -233,15 +221,16 @@ form label {
   flex-direction: column;
   padding: 10px;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;}
+  font-family: "Roboto", sans-serif;
+}
 
 #input {
   border: 3px rgb(48, 255, 2) solid;
   border-radius: 10px;
   margin: 5px;
+  padding: 8px;
   color: white;
   background-color: black;
-  
 }
 
 #textarea {
@@ -251,12 +240,9 @@ form label {
   border-radius: 10px;
   height: 200px;
   background-color: black;
-  color:white;
+  color: white;
   padding: 10px;
   width: 400px;
-  
-
-
 }
 
 .form-title {
@@ -269,17 +255,16 @@ form button {
   color: white;
   border: 3px rgb(48, 255, 2) solid;
   border-radius: 10px;
-  font-family: 'Roboto', sans-serif;  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
   width: 400px;
 }
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 
 /* MEDIA QUERIES */
-
-
-
 
 @media only screen and (max-width: 930px) {
   .intro-right {
@@ -292,9 +277,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     background-color: white;
-    
   }
-
 
   .mobile-links ul li {
     color: black;
@@ -309,8 +292,7 @@ textarea:focus, input:focus{
     background-color: black;
   }
 
-
- nav {
+  nav {
     width: 100%;
   }
   .nav-wrapper {
@@ -333,7 +315,7 @@ textarea:focus, input:focus{
     color: white;
     margin-top: 15px;
   }
-  
+
   #terminal-div {
     width: 100%;
     font-size: 10px;
@@ -342,14 +324,9 @@ textarea:focus, input:focus{
   #terminal-content {
     width: 30px;
     font-size: 20px;
-
   }
 
-
- 
-
   .intro {
-   
     width: 100%;
     display: flex;
     margin: 60px auto;
@@ -357,7 +334,6 @@ textarea:focus, input:focus{
     opacity: 0.85;
     overflow-y: hidden;
     overflow-x: hidden;
-
   }
 
   .intro-left {
@@ -372,33 +348,22 @@ textarea:focus, input:focus{
     border: 2px solid rgb(48, 255, 2);
   }
 
- 
   #carousel {
     padding: 0;
     margin-top: 15px;
   }
 
-  
-
   .carousel-inner {
     height: 550px;
   }
- 
 
-
-
- 
   .intro-inner {
-    
     flex-direction: column;
   }
 
   form {
     margin-top: 45px;
-    
   }
-
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -412,9 +377,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     background-color: white;
-    
   }
-
 
   .mobile-links ul li {
     color: black;
@@ -429,8 +392,7 @@ textarea:focus, input:focus{
     background-color: black;
   }
 
-
- nav {
+  nav {
     width: 100%;
   }
   .nav-wrapper {
@@ -453,7 +415,7 @@ textarea:focus, input:focus{
     color: white;
     margin-top: 15px;
   }
-  
+
   #terminal-div {
     width: 100%;
     font-size: 10px;
@@ -462,14 +424,9 @@ textarea:focus, input:focus{
   #terminal-content {
     width: 30px;
     font-size: 20px;
-
   }
 
-
- 
-
   .intro {
-   
     width: 100%;
     display: flex;
     margin: 60px auto;
@@ -477,7 +434,6 @@ textarea:focus, input:focus{
     opacity: 0.85;
     overflow-y: hidden;
     overflow-x: hidden;
-
   }
 
   .intro-left {
@@ -492,32 +448,22 @@ textarea:focus, input:focus{
     border: 2px solid rgb(48, 255, 2);
   }
 
- 
   #carousel {
     padding: 0;
     margin-top: 15px;
   }
 
-  
-
   .carousel-inner {
     height: 550px;
   }
- 
 
-
-
- 
   .intro-inner {
-    
     flex-direction: column;
   }
 
   form {
     margin-top: 45px;
-    
   }
-
 }
 @media only screen and (max-width: 600px) {
   .intro-right {
@@ -530,10 +476,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     background-color: white;
-   
-    
   }
-
 
   .mobile-links ul li {
     color: black;
@@ -548,8 +491,7 @@ textarea:focus, input:focus{
     background-color: black;
   }
 
-
- nav {
+  nav {
     width: 100%;
   }
   .nav-wrapper {
@@ -572,7 +514,7 @@ textarea:focus, input:focus{
     color: white;
     margin-top: 15px;
   }
-  
+
   #terminal-div {
     width: 100%;
     font-size: 10px;
@@ -581,14 +523,9 @@ textarea:focus, input:focus{
   #terminal-content {
     width: 30px;
     font-size: 20px;
-
   }
 
-
- 
-
   .intro {
-   
     width: 100%;
     display: flex;
     margin: 60px auto;
@@ -596,7 +533,6 @@ textarea:focus, input:focus{
     opacity: 0.85;
     overflow-y: hidden;
     overflow-x: hidden;
-
   }
 
   .intro-left {
@@ -610,41 +546,25 @@ textarea:focus, input:focus{
     border: 2px solid rgb(48, 255, 2);
   }
 
- 
   #carousel {
     padding: 0;
     margin-top: 15px;
   }
 
-  
-
   .carousel-inner {
     height: 550px;
   }
- 
 
-
-
- 
   .intro-inner {
-    
     flex-direction: column;
   }
 
   form {
     margin-top: 45px;
-    
   }
-
-
-
 }
 
-
-
-
 @media only screen and (max-width: 400px) {
-
   .mobile-links {
     position: absolute;
     top: 60px;
@@ -652,9 +572,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     background-color: white;
-    
   }
-
 
   .mobile-links ul li {
     color: black;
@@ -669,8 +587,7 @@ textarea:focus, input:focus{
     background-color: black;
   }
 
-
- nav {
+  nav {
     width: 100%;
   }
   .nav-wrapper {
@@ -693,7 +610,7 @@ textarea:focus, input:focus{
     color: white;
     margin-top: 15px;
   }
-  
+
   #terminal-div {
     width: 100%;
     font-size: 10px;
@@ -702,14 +619,9 @@ textarea:focus, input:focus{
   #terminal-content {
     width: 30px;
     font-size: 20px;
-
   }
 
-
- 
-
   .intro {
-   
     width: 100%;
     display: flex;
     margin: 60px auto;
@@ -717,7 +629,6 @@ textarea:focus, input:focus{
     opacity: 0.85;
     overflow-y: hidden;
     overflow-x: hidden;
-
   }
 
   .intro-left {
@@ -735,32 +646,20 @@ textarea:focus, input:focus{
     width: 100%;
   }
 
-
   #carousel {
     padding: 0;
     margin-top: 15px;
   }
 
-  
-
   .carousel-inner {
     height: 550px;
   }
- 
 
-
-
- 
   .intro-inner {
-    
     flex-direction: column;
   }
 
   form {
     margin-top: 45px;
-    
   }
-
- 
-
 }
