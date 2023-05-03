@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/imjord-port/static/css/main.6b1de101.css",
-    "main.js": "/imjord-port/static/js/main.2c6a0b4d.js",
+    "main.css": "/imjord-port/static/css/main.1d2ec297.css",
+    "main.js": "/imjord-port/static/js/main.d6006844.js",
     "static/media/gameLibrary.png": "/imjord-port/static/media/gameLibrary.920db8485f5d8442d2bc.png",
     "static/media/logo1.JPG": "/imjord-port/static/media/logo1.63715213b20b4927d6c4.JPG",
     "static/media/vade.png": "/imjord-port/static/media/vade.121c664558d5b6fe4742.png",
@@ -11,14 +11,15 @@
     "static/media/logo3.JPG": "/imjord-port/static/media/logo3.2d7be3f7b5fe60f00ff8.JPG",
     "static/media/suda.png": "/imjord-port/static/media/suda.00a731042b9edf00e155.png",
     "static/media/contact.JPG": "/imjord-port/static/media/contact.889510c76995f4c9a02d.JPG",
+    "static/media/electron_app.png": "/imjord-port/static/media/electron_app.4dc2eac8a5d8a52660a9.png",
     "static/media/imjordredditclone.png": "/imjord-port/static/media/imjordredditclone.6d6bb5d75d5b49c318a6.png",
     "static/media/readme.png": "/imjord-port/static/media/readme.8f2b87978bba4fa22d35.png",
     "index.html": "/imjord-port/index.html",
-    "main.6b1de101.css.map": "/imjord-port/static/css/main.6b1de101.css.map",
-    "main.2c6a0b4d.js.map": "/imjord-port/static/js/main.2c6a0b4d.js.map"
+    "main.1d2ec297.css.map": "/imjord-port/static/css/main.1d2ec297.css.map",
+    "main.d6006844.js.map": "/imjord-port/static/js/main.d6006844.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b1de101.css",
-    "static/js/main.2c6a0b4d.js"
+    "static/css/main.1d2ec297.css",
+    "static/js/main.d6006844.js"
   ]
 }
